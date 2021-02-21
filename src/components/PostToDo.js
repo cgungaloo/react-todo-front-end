@@ -4,7 +4,7 @@ const PostToDo = (props) => {
     return(
     <form onSubmit={props.handleSubmit}>
         <label>
-            New Item:
+            New Item 
             <input type="text" id="newToDo" onChange={e => e.target.value}/>
         </label>
         <input type="submit" value="Submit"/>
