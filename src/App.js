@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <div class="jumbotron-fluid">
-        <h1>My Tasks</h1>
+        <h1>My To Do List</h1>
       </div>
       <div class="col-lg-12">
         <Header />

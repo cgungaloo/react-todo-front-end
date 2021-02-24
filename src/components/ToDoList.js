@@ -6,7 +6,9 @@ const ToDoList = (props) => {
 
     return (
         <div>
+            <div class="number-of-tasks">
             <h3>You have : {tasks.count} tasks</h3>
+            </div>
             {tasks.items.map((task) => {
                 return (
                     <div class="container p-3 my-3 bg-primary text-white">
